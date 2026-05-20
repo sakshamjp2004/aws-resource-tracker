@@ -27,4 +27,4 @@ aws s3 ls >> /home/ubuntu/ResourceTracker
 aws lambda list-functions >> /home/ubuntu/ResourceTracker
 
 ##list iam users
-aws iam get-user >> /home/ubuntu/ResourceTracker
+aws iam list-user >> /home/ubuntu/ResourceTracker
